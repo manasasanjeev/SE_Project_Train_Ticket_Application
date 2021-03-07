@@ -39,7 +39,7 @@
   
   .top-wrapper {
     padding: 180px 0 100px 0;
-    background-image: url(https://i.ytimg.com/vi/KuDn-EWuZew/maxresdefault.jpg);
+    background-image: url(https://img.etimg.com/thumb/msid-74161757,width-300,imgsize-327858,,resizemode-4,quality-100/7.jpg);
     background-size: cover;
     color: white;
     text-align: center;
@@ -65,7 +65,20 @@
   .btn-wrapper p {
     margin: 10px 0;
   }
-   
+  
+  .signup {
+    background-color: #239b76;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+  }
+  
+  .twitter {
+    background-color: #55acee;
+  }
+  
   .btn {
     padding: 12px 24px;
     color: white;
@@ -90,6 +103,33 @@
     position: fixed;
     top: 0;
     z-index: 10;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a, .header-right span {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover, .header-right span:hover {
+    background-color: rgba(255, 255, 255, 0.3);
   }
   
   /* Modal  */
