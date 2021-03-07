@@ -4,6 +4,7 @@ body {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq1pcSw3dXMRjARgxNMgknIx0IMqNikIdzeA&usqp=CAU);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 100%;
 }
 
 .login {
