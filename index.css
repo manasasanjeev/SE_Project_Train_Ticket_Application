@@ -39,10 +39,13 @@
   
   .top-wrapper {
     padding: 180px 0 100px 0;
-    background-image: url(https://img.etimg.com/thumb/msid-74161757,width-300,imgsize-327858,,resizemode-4,quality-100/7.jpg);
+    background-image: url(https://i.ytimg.com/vi/KuDn-EWuZew/maxresdefault.jpg);
     background-size: cover;
     color: white;
     text-align: center;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
   }
   
   .top-wrapper h1 {
