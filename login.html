@@ -1,31 +1,36 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
-    <title>LOGIN</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='login.css'>
-    <link href='https://fonts.googleapis.com/css?family=Nanum Brush Script' rel='stylesheet'>
+  <link rel="stylesheet" href="login.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <title>Sign in</title>
 </head>
 <body>
-  <div class="login">
-    <form class="loginForm">
-        <div class="loginTitle">
-            <h1>LOGIN</h1>
+  <div class="main">
+    <p class="sign" align="center">Login</p>
+    <form class="form1">
+      <input class="un " type="text" align="center" placeholder="Username">
+      <input class="pass" type="password" align="center" placeholder="Password" id="Myinput"><br>
+    <div class="show">
+      <input type="checkbox" align="center" onclick="myFunction()">Show Password
+    </div>
+      </form>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("Myinput");
+          if (x.type === "password") {
+            x.type = "text";
+          } else {
+            x.type = "password";
+          }
+        }
+        </script>
+        <div class="text-center">
+            <a class="submit" align="center" style="margin-left:0px;">Login</a>
         </div>
-        <label>
-            <p>Username</p>
-            <input type="Username"/ class="textBox">
-        </label>
-        <label>
-            <p>Password</p>
-            <input type="password" class="textBox"/>
-        </label>
-        <button type="submit">
-            Log in
-        </button>
-    </form>
-  </div>
+      <p class="forgot" align="center"><a href="forgotpwd.html">Forgot your Password?</p>         
+    </div>
 </body>
 </html>
 
