@@ -1,0 +1,38 @@
+<html>
+<head>
+  <link rel="stylesheet" href="forgotpwd.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <title>Forgot Password</title>
+</head>
+<body>
+  <div class="main">
+    <p class="sign" align="center">Login</p>
+    <form class="form1" action="forgotpwd.php">
+      <input class="un " type="text" align="center" placeholder="Username">
+      <input class="newpass" type="password" align="center" placeholder="New Password" id="Myinput"><br>
+      <!-- change newpass to renewpass if necessary -->
+      <input class="newpass" type="password" align="center" placeholder="Re-enter New Password" id="Myinput"><br>
+    <div class="show">
+      <input type="checkbox" align="center" onclick="myFunction()">Show Password
+    </div>
+      
+      <script>
+        function myFunction() {
+          var x = document.getElementById("Myinput");
+          if (x.type === "password") {
+            x.type = "text";
+          } else {
+            x.type = "password";
+          }
+        }
+        </script>
+        <div class="text-center">
+            <a class="submit" align="center" style="margin-left:0px;">Change Password</a>
+        </div>
+      <p class="login" align="center"><a href="login.html">Login</p>         
+    </div>
+</form>
+</body>
+</html>
